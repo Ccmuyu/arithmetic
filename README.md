@@ -1,2 +1,2 @@
 # arithmetic
-算法，刷题日记。只要来源leetcode
+算法，刷题日记。来源leetcode
