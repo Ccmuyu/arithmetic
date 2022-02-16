@@ -24,5 +24,6 @@ else
   echo "您的提交信息：$msg"
   git commit -m "$msg"
   echo "git push"
+  git push
 fi
 
