@@ -1,4 +1,4 @@
-
+# 一键git commit代码，只需要输入提交信息即可
 # git status | grep 'new file' | head -1 | awk -F ' ' '{ print $3 }'
 
 git_status=`git status`
@@ -17,6 +17,7 @@ else
   git add .
   echo "git add 成功！"
 
+  echo "请输入您的提交信息："
   echo "git commit -m"
   #提交msg，接收控制台输入
   read msg
