@@ -4,7 +4,7 @@
 git_status=`git status`
 echo $git_status
 
-file_name=`git status | grep -e 'new file' -e 'modified:' | awk '{ print }'`
+file_name=`git status | grep -e 'new file' -e 'modified:' -e 'deleted'| awk '{ print }'`
 
 echo "存在待提交的文件："
 echo $file_name
