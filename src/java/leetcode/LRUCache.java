@@ -1,4 +1,4 @@
-package mubu;
+package leetcode;
 
 
 import java.util.HashMap;

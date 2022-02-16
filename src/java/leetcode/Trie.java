@@ -1,4 +1,4 @@
-package mubu;
+package leetcode;
 
 // 前缀树（字典树）
 public class Trie {
