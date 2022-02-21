@@ -22,6 +22,8 @@ else
   #提交msg，接收控制台输入
   read msg
   echo "您的提交信息：$msg"
+  echo "================================"
+  echo "$printf"
   git commit -m "$msg"
   echo "git push"
   git push
