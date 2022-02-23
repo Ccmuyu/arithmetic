@@ -1,5 +1,7 @@
 package leetcode;
 
+// 61. 旋转链表
+// https://leetcode-cn.com/problems/rotate-list/
 public class RotateRight {
 
 
