@@ -7,6 +7,7 @@ public class SortList {
 
     // 归并排序
     // 思想：如果局部有序，则整体有序
+    // 给你链表的头结点 head ，请将其按 升序 排列并返回 排序后的链表 。
     public ListNode sortList(ListNode head) {
         // 分割：使用slow、fast指针，找到二分点（奇数：中点，偶数：中心左侧点）
         if (head == null || head.next == null) return head;
