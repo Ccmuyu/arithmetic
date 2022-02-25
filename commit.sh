@@ -18,7 +18,7 @@ else
   echo "git add 成功！"
 
   echo "请输入您的提交信息："
-  echo "git commit -m"
+  echo "git commit -am"
   #提交msg，接收控制台输入
   read msg
   echo "您的提交信息：$msg"
