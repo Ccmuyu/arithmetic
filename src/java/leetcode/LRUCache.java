@@ -89,19 +89,21 @@ public class LRUCache {
         deleteNode(pre);
         return pre;
     }
+
+    class LinkNode {
+        int key;
+        int value;
+        LinkNode pre;
+        LinkNode next;
+
+        public LinkNode() {
+        }
+
+        public LinkNode(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
 }
 
-class LinkNode {
-    int key;
-    int value;
-    LinkNode pre;
-    LinkNode next;
 
-    public LinkNode() {
-    }
-
-    public LinkNode(int key, int value) {
-        this.key = key;
-        this.value = value;
-    }
-}
